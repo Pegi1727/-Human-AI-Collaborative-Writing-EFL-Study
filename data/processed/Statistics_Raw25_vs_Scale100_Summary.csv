@@ -1,0 +1,8 @@
+Statistic,Raw25,Scale100,Identical
+Pre-test t-statistic,2.1705,2.1705,Yes
+Pre-test p-value,0.0336,0.0336,Yes
+ANCOVA F (Group),11.5233,11.5233,Yes
+ANCOVA p (Group),0.001176,0.001176,Yes
+Partial eta squared,0.1506,0.1506,Yes
+Adj. Mean Control,19.0390,76.1561,Yes
+Adj. Mean Experimental,20.4010,81.6042,Yes
