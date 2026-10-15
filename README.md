@@ -72,6 +72,51 @@ All posttest outcomes were examined via ANCOVA with baseline pretest scores spec
 
 ---
 
+🔁 Reproduction Guidelines
+1. Python Workflow
+bash
+# Clone the repository
+git clone https://github.com/Pegi1727/-Human-AI-Collaborative-Writing-EFL-Study.git
+cd -Human-AI-Collaborative-Writing-EFL-Study
+
+# Install required dependencies
+pip install numpy pandas scipy statsmodels matplotlib seaborn
+
+# Run end-to-end pipeline
+python scripts/01_validate_environment.py
+python scripts/05_ancova_writing_table4.py
+python scripts/09_generate_figures_1_to_4.py
+2. R Workflow
+bash
+# Execute ANCOVA models and export publication plots
+Rscript scripts_r/05_ancova_writing_table4.R
+Rscript scripts_r/09_generate_figures_1_to_4.R
+-------------------------------
+📖 How to Cite
+Primary Article
+bibtex
+@article{merrikhi2026human_ai_collaborative_writing,
+  author    = {Merrikhi, Pegah},
+  title     = {Human--AI Collaborative Writing: Effects of ChatGPT-Mediated Peer Feedback on EFL Learners' Academic Writing Quality, Self-Regulated Learning, and AI Literacy},
+  journal   = {Computer Assisted Language Learning},
+  year      = {2026},
+  note      = {Manuscript ID: NCAL-2026-1259}
+----------------------------------
+Replication Package & Dataset
+bibtex
+@misc{merrikhi2026zenodo_replication,
+  author    = {Merrikhi, Pegah},
+  title     = {Replication Data, Python \& R Scripts, and Jupyter Notebooks for: Human–AI Collaborative Writing},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {v1.00},
+  doi       = {10.5281/zenodo.23386738},
+  url       = {https://doi.org/10.5281/zenodo.23386738}
+}
+--------------------------------------
+⚖️ License
+The empirical dataset, documentation, and graphical materials are licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0). All analytical scripts (Python and R) and Jupyter Notebooks are provided under the open-source MIT License.
+--------------
 ## 🗂 Repository Structure
 ```text
 ├── data/                               <- Participant datasets
